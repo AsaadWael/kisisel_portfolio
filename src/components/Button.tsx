@@ -29,9 +29,11 @@ export function Button({ variant = 'primary', size = 'md', className, ...props }
   const mergedClassName = cn(base, variants[variant], sizes[size], className)
 
   if ('href' in props) {
-    const { href, ...rest } = props
+    const { href, ...rest } = props as CommonProps &
+      AnchorHTMLAttributes<HTMLAnchorElement> & { href: string }
     return <a href={href} className={mergedClassName} {...rest} />
   }
 
-  return <button className={mergedClassName} type="button" {...props} />
+  const buttonProps = props as CommonProps & ButtonHTMLAttributes<HTMLButtonElement>
+  return <button className={mergedClassName} type="button" {...buttonProps} />
 }

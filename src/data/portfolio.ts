@@ -71,8 +71,8 @@ export const personalInfo: PersonalInfo = {
 	bio: "Computer Engineering student passionate about building modern frontend applications with React, TypeScript, and clean UI design.",
 	location: "Turkey, Sivas",
 	email: "wailasad06@gmail.com",
-	cvUrl: "/src/assets/images/CV.pdf",
-	avatar: "/src/assets/images/Avatar1.png",
+	cvUrl: "/images/CV.pdf",
+	avatar: "/images/Avatar1.png",
 };
 
 export const heroContent: HeroContent = {
@@ -92,7 +92,7 @@ export const aboutContent: AboutContent = {
 		"I work mainly with React, TypeScript, and Tailwind CSS, focusing on clean code, responsive design, and performance.",
 		"I am constantly learning new technologies and improving my skills through personal projects and university coursework.",
 	],
-	image: "/src/assets/images/Avatar.png",
+	image: "/images/Avatar.png",
 };
 
 export const sectionContent = {
@@ -191,7 +191,7 @@ export const projects: Project[] = [
 		techs: ["React", "TypeScript", "Tailwind CSS", "Vite"],
 		liveUrl: "",
 		repoUrl: "https://github.com/AsaadWael",
-		image: "/src/assets/images/kişisel_blog.png",
+		image: "/images/kişisel_blog.png",
 	},
 	{
 		id: "course-selection-system",
@@ -201,7 +201,7 @@ export const projects: Project[] = [
 		techs: ["HTML", "CSS", "JavaScript"],
 		liveUrl: "",
 		repoUrl: "https://github.com/AsaadWael",
-		image: "/src/assets/images/scu_ders.png",
+		image: "/images/scu_ders.png",
 	},
 
 	{
@@ -212,7 +212,7 @@ export const projects: Project[] = [
 		techs: ["HTML", "CSS", "Bootstrap", "PHP", "MySQL"],
 		liveUrl: "",
 		repoUrl: "https://github.com/AsaadWael",
-		image: "/src/assets/images/hms.png",
+		image: "/images/hms.png",
 	},
 	{
 		id: "iot-face-recognition",
@@ -222,7 +222,7 @@ export const projects: Project[] = [
 		techs: ["Python", "OpenCV", "Raspberry Pi", "HTML", "CSS", "JavaScript"],
 		liveUrl: "https://youtu.be/7WJINYLBhFc?si=CO6WruUfK329Kf2s",
 		repoUrl: "https://github.com/AsaadWael",
-		image: "/src/assets/images/opencv.png",
+		image: "/images/opencv.png",
 	},
 ];
 
