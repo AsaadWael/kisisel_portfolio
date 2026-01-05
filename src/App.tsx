@@ -57,7 +57,7 @@ function App() {
       title: t('about.title'),
       subtitle: t('about.subtitle'),
       paragraphs: t('about.paragraphs', { returnObjects: true }) as string[],
-      image: '/src/assets/images/Avatar.png',
+      image: 'images/Avatar.png',
     }),
     [t],
   )

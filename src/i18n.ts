@@ -257,7 +257,7 @@ i18n.use(initReactI18next).init({
 				},
 				sections: {
 					skills: {
-						eyebrow: "Yetkinekler",
+						eyebrow: "Yetkinlikler",
 						title: "Teknik yeteneklerim ",
 						subtitle:
 							"Üniversite ve uygulamalı projelerle gelişen frontend, programlama, derin öğrenme ve mühendislik bilgileri.",
