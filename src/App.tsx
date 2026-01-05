@@ -25,7 +25,7 @@ function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>(() => {
     const stored = localStorage.getItem('theme')
     if (stored === 'dark' || stored === 'light') return stored
-    return 'light'
+    return 'dark'
   })
 
   const navItems = useMemo(
