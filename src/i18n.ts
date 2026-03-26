@@ -169,6 +169,16 @@ i18n.use(initReactI18next).init({
 								"Actively working on frontend, deep learning, and IoT-related academic projects.",
 							],
 						},
+						"edu-02": {
+							title:
+								"Artificial Intelligence Specialization Program (Basic Training Certificate)",
+							place:
+								"National Technology Academy (T.C. Ministry of Industry and Technology)",
+							details: [
+								"Successfully completed the 10-session Artificial Intelligence Basic Training Program.",
+								"Attended the program between 19 January and 18 February 2026 under the National Technology Initiative.",
+							],
+						},
 						"intern-01": {
 							title: "Deep Learning Intern",
 							place: "Sivas Cumhuriyet University",
@@ -190,6 +200,17 @@ i18n.use(initReactI18next).init({
 								"Improving problem-solving skills and applying best practices for scalable front-end development.",
 							],
 						},
+						"intern-03": {
+							title: "Software Development Intern",
+							place: "Software Persona – TNC Group",
+							details: [
+								"Worked on database and SQL-based applications.",
+								"Contributed to web development projects using JavaScript.",
+								"Designed UI/UX using Figma.",
+								"Participated in mobile app development (Android / iOS).",
+								"Gained experience in frontend development and user experience design.",
+							],
+						},
 					},
 				},
 				gallery: {
@@ -198,8 +219,12 @@ i18n.use(initReactI18next).init({
 					items: {
 						"cert-01": "HTML5 Web Development - BTK Academy",
 						"cert-02":
-							"Programming & AI Project Experience - Sivas Cumhuriyet University",
-						"cert-03": "Deep Learning Internship Certification",
+							"Artificial Intelligence Specialization Program - Basic Training Certificate",
+						"cert-03":
+							"Software Internship Participation Certificate - Software Persona / TNC Group",
+						"cert-04":
+							"Project Writing Training Participation Certificate - Ogrenci Kariyeri",
+						"cert-05": "Gemini Certified Educator - Google for Education",
 					},
 				},
 				contact: {
@@ -384,6 +409,15 @@ i18n.use(initReactI18next).init({
 								"Frontend, derin öğrenme ve IoT alanlarında akademik projeler yürütüyorum.",
 							],
 						},
+						"edu-02": {
+							title: "Yapay Zeka Uzmanlık Programı (Temel Eğitim Sertifikası)",
+							place:
+								"Milli Teknoloji Akademisi (T.C. Sanayi ve Teknoloji Bakanlığı)",
+							details: [
+								"10 oturumluk Yapay Zeka Temel Eğitim Programını başarıyla tamamladım.",
+								"Programa Milli Teknoloji Hamlesi kapsamında 19 Ocak - 18 Şubat 2026 tarihleri arasında katıldım.",
+							],
+						},
 						"intern-01": {
 							title: "Derin Öğrenme Stajyeri",
 							place: "Sivas Cumhuriyet Üniversitesi",
@@ -405,6 +439,17 @@ i18n.use(initReactI18next).init({
 								"Ölçeklenebilir frontend geliştirme için best practice uygulama.",
 							],
 						},
+						"intern-03": {
+							title: "Yazılım Geliştirme Stajyeri",
+							place: "Software Persona – TNC Group",
+							details: [
+								"Veri tabanı ve SQL tabanlı uygulamalar üzerinde çalıştım.",
+								"JavaScript kullanarak web geliştirme projelerine katkı sağladım.",
+								"Figma ile UI/UX tasarımları hazırladım.",
+								"Mobil uygulama geliştirme süreçlerine (Android / iOS) katıldım.",
+								"Frontend geliştirme ve kullanıcı deneyimi tasarımı alanlarında deneyim kazandım.",
+							],
+						},
 					},
 				},
 				gallery: {
@@ -413,8 +458,13 @@ i18n.use(initReactI18next).init({
 					items: {
 						"cert-01": "HTML5 Web Geliştirme - BTK Akademi",
 						"cert-02":
-							"Programlama ve AI Proje Deneyimi - Sivas Cumhuriyet Üniversitesi",
-						"cert-03": "Derin Öğrenme Staj Sertifikası",
+							"Yapay Zeka Uzmanlık Programı - Temel Eğitim Sertifikası",
+						"cert-03":
+							"Yazılım Stajı Katılım Sertifikası (Software Internship Participation Certificate) - Software Persona / TNC Group",
+						"cert-04":
+							"Proje Yazım Eğitimi Katılım Sertifikası (Project Writing Training Participation Certificate) - Öğrenci Kariyeri",
+						"cert-05":
+							"Gemini Sertifikalı Eğitmen (Gemini Certified Educator) - Google for Education",
 					},
 				},
 				contact: {

@@ -70,7 +70,7 @@ export const personalInfo: PersonalInfo = {
 	bio: "Computer Engineering student passionate about building modern frontend applications with React, TypeScript, and clean UI design.",
 	location: "Turkey, Sivas",
 	email: "wailasad06@gmail.com",
-	cvUrl: "images/CV.pdf",
+	cvUrl: "images/WAEL ASSAD CV-EN.pdf",
 	avatar: "images/Avatar1.png",
 };
 
@@ -91,7 +91,7 @@ export const aboutContent: AboutContent = {
 		"I work mainly with React, TypeScript, and Tailwind CSS, focusing on clean code, responsive design, and performance.",
 		"I am constantly learning new technologies and improving my skills through personal projects and university coursework.",
 	],
-	 image: "images/Avatar.png",
+	image: "images/Avatar.png",
 };
 
 export const sectionContent = {
@@ -247,6 +247,20 @@ export const timeline: TimelineItem[] = [
 			"Actively working on frontend, deep learning, and IoT-related academic projects.",
 		],
 	},
+	{
+		id: "edu-02",
+		type: "education",
+		title:
+			"Artificial Intelligence Specialization Program (Basic Training Certificate)",
+		place:
+			"National Technology Academy (T.C. Ministry of Industry and Technology)",
+		start: "Jan 2026",
+		end: "Feb 2026",
+		details: [
+			"Successfully completed the 10-session Artificial Intelligence Basic Training Program.",
+			"Attended the program between 19 January and 18 February 2026 under the National Technology Initiative.",
+		],
+	},
 
 	{
 		id: "intern-01",
@@ -278,6 +292,21 @@ export const timeline: TimelineItem[] = [
 			"Improving problem-solving skills and applying best practices for scalable front-end development.",
 		],
 	},
+	{
+		id: "intern-03",
+		type: "experience",
+		title: "Software Development Intern",
+		place: "Software Persona – TNC Group",
+		start: "Jan 2026",
+		end: "Mar 2026",
+		details: [
+			"Worked on database and SQL-based applications.",
+			"Contributed to web development projects using JavaScript.",
+			"Designed UI/UX using Figma.",
+			"Participated in mobile app development (Android / iOS).",
+			"Gained experience in frontend development and user experience design.",
+		],
+	},
 ];
 
 export const galleryItems: GalleryItem[] = [
@@ -287,10 +316,21 @@ export const galleryItems: GalleryItem[] = [
 	},
 	{
 		id: "cert-02",
-		title: "Programming & AI Project Experience – Sivas Cumhuriyet University",
+		title:
+			"Artificial Intelligence Specialization Program – Basic Training Certificate",
 	},
 	{
 		id: "cert-03",
-		title: "Deep Learning Internship Certification",
+		title:
+			"Software Internship Participation Certificate – Software Persona / TNC Group",
+	},
+	{
+		id: "cert-04",
+		title:
+			"Project Writing Training Participation Certificate – Ogrenci Kariyeri",
+	},
+	{
+		id: "cert-05",
+		title: "Gemini Certified Educator – Google for Education",
 	},
 ];
