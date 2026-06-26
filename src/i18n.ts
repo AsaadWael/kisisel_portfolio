@@ -22,13 +22,13 @@ i18n.use(initReactI18next).init({
 				},
 				about: {
 					eyebrow: "About",
-					title: "Computer Engineering student & Junior Frontend Developer",
+					title: "Computer Engineering Graduate & Software Developer",
 					subtitle:
-						"I enjoy building modern, clean, and responsive web interfaces while continuously improving my skills through real projects and internships.",
+						"I'm a graduate from Sivas Cumhuriyet University with expertise in frontend development, machine learning, and IoT projects. Passionate about clean code and modern technologies.",
 					paragraphs: [
-						"I am a Computer Engineering student at Sivas Cumhuriyet University with a strong interest in frontend development and modern web technologies.",
-						"I have hands-on experience building user interfaces using React, TypeScript, and Tailwind CSS, and I enjoy focusing on clean code, usability, and responsive design.",
-						"In addition to frontend development, I have worked on academic and internship projects in deep learning and IoT, which helped me build a strong technical foundation and problem-solving mindset.",
+						"I graduated from Sivas Cumhuriyet University's Computer Engineering program with a GPA of 3.18/4.00, gaining a strong foundation in software development and engineering principles.",
+						"My technical stack includes React, TypeScript, JavaScript, Tailwind CSS for frontend development, along with Python for backend and machine learning applications.",
+						"I have completed internships at leading tech companies, working on real-world projects in frontend development, database management, and software engineering while collaborating with professional teams.",
 					],
 					locationLine:
 						"{{name}} is currently based in {{location}}, available for focused collaborations.",
@@ -36,13 +36,13 @@ i18n.use(initReactI18next).init({
 				sections: {
 					skills: {
 						eyebrow: "Skills",
-						title: "My technical skill set",
+						title: "My technical skill",
 						subtitle:
 							"A combination of frontend, programming, deep learning, and engineering skills gained through university and hands-on projects.",
 					},
 					projects: {
 						eyebrow: "Projects",
-						title: "Projects",
+						title: "Selected projects",
 						subtitle:
 							"A collection of projects built with React, TypeScript, and modern UI practices.",
 					},
@@ -66,8 +66,8 @@ i18n.use(initReactI18next).init({
 					},
 				},
 				personal: {
-					title: "Junior Frontend Developer",
-					bio: "Computer Engineering student passionate about building modern frontend applications with React, TypeScript, and clean UI design.",
+					title: "Software Developer",
+					bio: "Computer Engineering graduate (GPA 3.18/4.00) with expertise in frontend development, machine learning, and IoT. Experienced in React, TypeScript, and Python. Available for software development opportunities.",
 					location: "Turkey, Sivas",
 				},
 				skills: [
@@ -164,19 +164,30 @@ i18n.use(initReactI18next).init({
 						"edu-01": {
 							title: "Bachelor of Science in Computer Engineering",
 							place: "Sivas Cumhuriyet University",
+							start: "2022",
+							end: "2026",
 							details: [
-								"Studying core computer engineering subjects including algorithms, data structures, and software engineering.",
-								"Actively working on frontend, deep learning, and IoT-related academic projects.",
+								"Completed core computer engineering subjects including algorithms, data structures, and software engineering.",
+								"Active in frontend, deep learning, and IoT-related academic projects with GPA 3.18/4.00.",
 							],
 						},
 						"edu-02": {
+							title: "High School Education",
+							place: "IBB Yavuz Sultan Anadolu Imam Hatip High School",
+							start: "2018",
+							end: "2022",
+							details: [],
+						},
+						"edu-03": {
 							title:
 								"Artificial Intelligence Specialization Program (Basic Training Certificate)",
 							place:
 								"National Technology Academy (T.C. Ministry of Industry and Technology)",
+							start: "Jan 2026",
+							end: "Apr 2026",
 							details: [
 								"Successfully completed the 10-session Artificial Intelligence Basic Training Program.",
-								"Attended the program between 19 January and 18 February 2026 under the National Technology Initiative.",
+								"Attended the program between January and April 2026 under the National Technology Initiative.",
 							],
 						},
 						"intern-01": {
@@ -192,6 +203,7 @@ i18n.use(initReactI18next).init({
 						"intern-02": {
 							title: "Front-End Developer Intern",
 							place: "Qkare Bilgi Teknolojileri",
+							end: "Jan 2026",
 							details: [
 								"Developing and maintaining modern user interfaces using HTML, CSS, and JavaScript.",
 								"Gained hands-on experience with React and Tailwind CSS for building dynamic and responsive UI components.",
@@ -203,6 +215,8 @@ i18n.use(initReactI18next).init({
 						"intern-03": {
 							title: "Software Development Intern",
 							place: "Software Persona – TNC Group",
+							start: "Jan 2025",
+							end: "Feb 2026",
 							details: [
 								"Worked on database and SQL-based applications.",
 								"Contributed to web development projects using JavaScript.",
@@ -217,9 +231,9 @@ i18n.use(initReactI18next).init({
 					certificate: "Certificate",
 					issued: "Issued",
 					items: {
-						"cert-01": "HTML5 Web Development - BTK Academy",
+						"cert-01": "HTML5 Web Development - BTK Academy (Jan 2025)",
 						"cert-02":
-							"Artificial Intelligence Specialization Program - Basic Training Certificate",
+							"Artificial Intelligence Specialization Program - Basic Training Certificate (Apr 2026)",
 						"cert-03":
 							"Software Internship Participation Certificate - Software Persona / TNC Group",
 						"cert-04":
@@ -268,14 +282,13 @@ i18n.use(initReactI18next).init({
 				},
 				about: {
 					eyebrow: "Hakkımda",
-					title:
-						"Bilgisayar Mühendisliği öğrencisi & Junior Frontend Developer",
+					title: "Bilgisayar Mühendisliği Mezunu & Yazılım Geliştirici",
 					subtitle:
-						"Modern, temiz ve responsive web arayüzleri geliştirirken gerçek projeler ve stajlarla becerilerimi sürekli geliştirmeyi seviyorum.",
+						"Sivas Cumhuriyet Üniversitesi'nden mezun oldum, frontend geliştirme, makine öğrenmesi ve IoT projelerinde uzman. Temiz kod ve modern teknolojilere tutkulu.",
 					paragraphs: [
-						"Sivas Cumhuriyet Üniversitesi Bilgisayar Mühendisliği öğrencisiyim ve frontend geliştirme ile modern web teknolojilerine ilgim var.",
-						"React, TypeScript ve Tailwind CSS ile arayüzler geliştirme konusunda pratik deneyimim var; temiz kod, kullanılabilirlik ve responsive tasarıma odaklanmayı seviyorum.",
-						"Frontend geliştirmeye ek olarak derin öğrenme ve IoT alanlarında akademik ve staj projelerinde çalıştım; bu da teknik temelimi ve problem çözüm yeteneğimi güçlendirdi.",
+						"Sivas Cumhuriyet Üniversitesi Bilgisayar Mühendisliği programından GPA 3.18/4.00 ile mezun oldum ve yazılım geliştirme ile mühendislik ilkelerine güçlü bir temel kazandım.",
+						"Teknik stack'im React, TypeScript, JavaScript, Tailwind CSS ile frontend geliştirme, Python ile backend ve makine öğrenmesi uygulamalarını içermektedir.",
+						"Öncü teknoloji şirketlerinde stajlar tamamladım ve frontend geliştirme, veritabanı yönetimi ve yazılım mühendisliği alanlarında gerçek dünya projelerinde profesyonel ekiplerle çalıştım.",
 					],
 					locationLine:
 						"{{name}} {{location}} konumunda, odaklı iş birliklerine açıktır.",
@@ -311,8 +324,8 @@ i18n.use(initReactI18next).init({
 					},
 				},
 				personal: {
-					title: "Junior Frontend Developer",
-					bio: "React, TypeScript ve temiz UI tasarımlarıyla modern frontend uygulamalar geliştirmeye odaklı Bilgisayar Mühendisliği öğrencisiyim.",
+					title: "Software Developer",
+					bio: "Computer Engineering mezunu (GPA 3.18/4.00) frontend geliştirme, makine öğrenmesi ve IoT konusunda uzman. React, TypeScript ve Python tecrübeli. Yazılım geliştirme fırsatlarına açık.",
 					location: "Türkiye, Sivas",
 				},
 				skills: [
@@ -404,18 +417,29 @@ i18n.use(initReactI18next).init({
 						"edu-01": {
 							title: "Bilgisayar Mühendisliği Lisans",
 							place: "Sivas Cumhuriyet Üniversitesi",
+							start: "2022",
+							end: "2026",
 							details: [
-								"Algoritmalar, veri yapıları ve yazılım mühendisliği gibi temel derslere devam ediyorum.",
-								"Frontend, derin öğrenme ve IoT alanlarında akademik projeler yürütüyorum.",
+								"Algoritmalar, veri yapıları ve yazılım mühendisliği gibi temel konuları tamamladım.",
+								"Frontend, derin öğrenme ve IoT alanlarında akademik projeler yürütüyorum. GPA 3.18/4.00.",
 							],
 						},
 						"edu-02": {
+							title: "Lise Eğitimi",
+							place: "IBB Yavuz Sultan Anadolu Imam Hatip Lisesi",
+							start: "2018",
+							end: "2022",
+							details: [],
+						},
+						"edu-03": {
 							title: "Yapay Zeka Uzmanlık Programı (Temel Eğitim Sertifikası)",
 							place:
 								"Milli Teknoloji Akademisi (T.C. Sanayi ve Teknoloji Bakanlığı)",
+							start: "Jan 2026",
+							end: "Apr 2026",
 							details: [
 								"10 oturumluk Yapay Zeka Temel Eğitim Programını başarıyla tamamladım.",
-								"Programa Milli Teknoloji Hamlesi kapsamında 19 Ocak - 18 Şubat 2026 tarihleri arasında katıldım.",
+								"Programa Milli Teknoloji Hamlesi kapsamında Ocak - Nisan 2026 tarihleri arasında katıldım.",
 							],
 						},
 						"intern-01": {
@@ -431,6 +455,7 @@ i18n.use(initReactI18next).init({
 						"intern-02": {
 							title: "Front-End Developer Stajyeri",
 							place: "Qkare Bilgi Teknolojileri",
+							end: "Jan 2026",
 							details: [
 								"HTML, CSS ve JavaScript ile modern arayüzlerin geliştirilmesi ve bakımı.",
 								"React ve Tailwind CSS ile dinamik ve responsive UI bileşenleri geliştirme.",
@@ -442,6 +467,8 @@ i18n.use(initReactI18next).init({
 						"intern-03": {
 							title: "Yazılım Geliştirme Stajyeri",
 							place: "Software Persona – TNC Group",
+							start: "Jan 2025",
+							end: "Feb 2026",
 							details: [
 								"Veri tabanı ve SQL tabanlı uygulamalar üzerinde çalıştım.",
 								"JavaScript kullanarak web geliştirme projelerine katkı sağladım.",
@@ -456,9 +483,9 @@ i18n.use(initReactI18next).init({
 					certificate: "Sertifika",
 					issued: "Verildi",
 					items: {
-						"cert-01": "HTML5 Web Geliştirme - BTK Akademi",
+						"cert-01": "HTML5 Web Geliştirme - BTK Akademi (Jan 2025)",
 						"cert-02":
-							"Yapay Zeka Uzmanlık Programı - Temel Eğitim Sertifikası",
+							"Yapay Zeka Uzmanlık Programı - Temel Eğitim Sertifikası (Apr 2026)",
 						"cert-03":
 							"Yazılım Stajı Katılım Sertifikası (Software Internship Participation Certificate) - Software Persona / TNC Group",
 						"cert-04":

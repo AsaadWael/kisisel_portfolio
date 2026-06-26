@@ -66,11 +66,11 @@ export type AboutContent = SectionContent & {
 
 export const personalInfo: PersonalInfo = {
 	name: "WAEL ASAAD",
-	title: "Junior Frontend Developer",
-	bio: "Computer Engineering student passionate about building modern frontend applications with React, TypeScript, and clean UI design.",
+	title: "Software Developer",
+	bio: "Computer Engineering graduate (GPA 3.18/4.00) with expertise in frontend development, machine learning, and IoT. Experienced in React, TypeScript, and Python. Available for software development opportunities.",
 	location: "Turkey, Sivas",
 	email: "wailasad06@gmail.com",
-	cvUrl: "images/WAEL ASSAD CV-EN.pdf",
+	cvUrl: "/WAEL ASSAD CV-EN.pdf",
 	avatar: "images/Avatar1.png",
 };
 
@@ -83,13 +83,13 @@ export const heroContent: HeroContent = {
 
 export const aboutContent: AboutContent = {
 	eyebrow: "About",
-	title: "Building modern web interfaces",
+	title: "Computer Engineering Graduate & Software Developer",
 	subtitle:
-		"I focus on building clean, responsive, and user-friendly web interfaces using modern frontend technologies.",
+		"I'm a graduate from Sivas Cumhuriyet University with expertise in frontend development, machine learning, and IoT projects. Passionate about clean code and modern technologies.",
 	paragraphs: [
-		"I am a Computer Engineering student with a strong interest in frontend development. I enjoy turning ideas into interactive and visually appealing web applications.",
-		"I work mainly with React, TypeScript, and Tailwind CSS, focusing on clean code, responsive design, and performance.",
-		"I am constantly learning new technologies and improving my skills through personal projects and university coursework.",
+		"I graduated from Sivas Cumhuriyet University's Computer Engineering program with a GPA of 3.18/4.00. I have hands-on experience in frontend development, machine learning, and IoT technologies gained through university projects and professional internships.",
+		"My technical stack includes React, TypeScript, JavaScript, Tailwind CSS for frontend development, and Python, Keras, OpenCV for machine learning and computer vision projects. I work with databases like MySQL and MSSQL Server.",
+		"I have completed internships at leading tech companies including Sivas Cumhuriyet University (Deep Learning), Qkare Bilgi Teknolojileri (Frontend Development), and Software Persona/TNC Group (Software Development). Strong problem-solver with excellent analytical thinking and team collaboration skills.",
 	],
 	image: "images/Avatar.png",
 };
@@ -148,45 +148,39 @@ export const socialLinks: SocialLink[] = [
 
 export const skills: SkillCategory[] = [
 	{
+		category: "Programming Languages",
+		items: ["Java", "Python", "C#", "JavaScript", "TypeScript", "SQL", "PHP"],
+	},
+	{
 		category: "Frontend Development",
-		items: [
-			"HTML",
-			"CSS",
-			"JavaScript",
-			"React",
-			"TypeScript",
-			"Tailwind CSS",
-			"Responsive Design",
-		],
+		items: ["React", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design"],
 	},
 	{
-		category: "Programming",
+		category: "Machine Learning & AI",
 		items: [
-			"Java",
-			"PHP",
-			"JavaScript",
-			"TypeScript",
-			"MySQL",
-			"Python Basics",
-		],
-	},
-	{
-		category: "Deep Learning & AI",
-		items: [
-			"Deep Learning Basics",
-			"Image Processing",
-			"U-Net Architecture",
+			"Deep Learning",
+			"Machine Learning",
+			"CNN",
 			"Keras",
-			"Model Training & Evaluation",
+			"OpenCV",
+			"Image Processing",
 		],
 	},
 	{
-		category: "IoT & Embedded Systems",
-		items: ["Raspberry Pi", "STM32", "ARM Architecture", "UART Communication"],
+		category: "Databases",
+		items: ["MSSQL Server", "MySQL"],
 	},
 	{
 		category: "Tools & Technologies",
-		items: ["Git & GitHub", "VS Code", "Microsoft Office"],
+		items: [
+			"Git & GitHub",
+			"VS Code",
+			"IntelliJ IDEA",
+			"Figma",
+			"Linux",
+			"VMware",
+			"Microsoft Office",
+		],
 	},
 ];
 
@@ -202,22 +196,11 @@ export const projects: Project[] = [
 		image: "images/kisisel_blog.png",
 	},
 	{
-		id: "course-selection-system",
-		title: "SCU Course Selection System",
-		description:
-			"A web-based system that allows Computer Engineering students to select their academic year and semester to view course information through a clean, organized, and responsive interface.",
-		techs: ["HTML", "CSS", "JavaScript"],
-		liveUrl: "",
-		repoUrl: "https://github.com/AsaadWael",
-		image: "images/scu_ders.png",
-	},
-
-	{
 		id: "hospital-management-system",
-		title: "Hospital Management System ",
+		title: "Hospital Management System",
 		description:
-			"A frontend interface for a Hospital Management System that manages patients, doctors, appointments, and basic administrative workflows with a clean and responsive UI.",
-		techs: ["HTML", "CSS", "Bootstrap", "PHP", "MySQL"],
+			"A comprehensive hospital management system with doctor, patient, and admin panels. Manages patient records, appointments, and administrative workflows with a responsive interface.",
+		techs: ["PHP", "HTML5", "CSS3", "JavaScript", "MySQL"],
 		liveUrl: "",
 		repoUrl: "https://github.com/AsaadWael",
 		image: "images/hms.png",
@@ -226,11 +209,21 @@ export const projects: Project[] = [
 		id: "iot-face-recognition",
 		title: "Face Recognition Door Lock (IoT)",
 		description:
-			"An IoT-based project using face recognition to control door access, developed as part of university coursework.",
+			"An intelligent door access system using face recognition technology built with Python, OpenCV, and Raspberry Pi. Provides secure access control through facial verification.",
 		techs: ["Python", "OpenCV", "Raspberry Pi", "HTML", "CSS", "JavaScript"],
 		liveUrl: "https://youtu.be/7WJINYLBhFc?si=CO6WruUfK329Kf2s",
 		repoUrl: "https://github.com/AsaadWael",
 		image: "images/opencv.png",
+	},
+	{
+		id: "course-selection-system",
+		title: "Course Information System",
+		description:
+			"A responsive web application that allows Computer Engineering students to view course information organized by academic year and semester.",
+		techs: ["HTML", "CSS", "JavaScript"],
+		liveUrl: "",
+		repoUrl: "https://github.com/AsaadWael",
+		image: "images/scu_ders.png",
 	},
 ];
 
@@ -241,24 +234,33 @@ export const timeline: TimelineItem[] = [
 		title: "Bachelor of Science in Computer Engineering",
 		place: "Sivas Cumhuriyet University",
 		start: "2022",
-		end: "Present",
+		end: "2026",
 		details: [
-			"Studying core computer engineering subjects including algorithms, data structures, and software engineering.",
-			"Actively working on frontend, deep learning, and IoT-related academic projects.",
+			"Graduated with GPA: 3.18/4.00",
+			"Studied core computer engineering subjects including algorithms, data structures, and software engineering.",
+			"Completed academic projects in frontend development, deep learning, and IoT technologies.",
 		],
 	},
 	{
 		id: "edu-02",
 		type: "education",
-		title:
-			"Artificial Intelligence Specialization Program (Basic Training Certificate)",
+		title: "High School Education",
+		place: "IBB Yavuz Sultan Anadolu Imam Hatip High School",
+		start: "2018",
+		end: "2022",
+		details: ["Grade Average: 80/100"],
+	},
+	{
+		id: "edu-03",
+		type: "education",
+		title: "AI Specialization Program",
 		place:
 			"National Technology Academy (T.C. Ministry of Industry and Technology)",
 		start: "Jan 2026",
-		end: "Feb 2026",
+		end: "Apr 2026",
 		details: [
-			"Successfully completed the 10-session Artificial Intelligence Basic Training Program.",
-			"Attended the program between 19 January and 18 February 2026 under the National Technology Initiative.",
+			"Completed the Artificial Intelligence Specialization Program with basic training certificate.",
+			"Attended 10-session training program under the National Technology Initiative.",
 		],
 	},
 
@@ -270,10 +272,10 @@ export const timeline: TimelineItem[] = [
 		start: "Jul 2025",
 		end: "Aug 2025",
 		details: [
-			"Conducted research and practical work in the field of deep learning.",
-			"Developed an image super-resolution project using Python, Keras, and the U-Net architecture.",
-			"Gained hands-on experience in image processing, model training, and performance evaluation.",
-			"Completed a supervised 25-day internship under Dr. Kâli (Head of Department).",
+			"Developed image processing applications using Python and Keras.",
+			"Worked on image super-resolution project using U-Net architecture.",
+			"Gained hands-on experience in model training, evaluation, and optimization.",
+			"Completed a supervised 25-day internship under departmental guidance.",
 		],
 	},
 
@@ -283,13 +285,13 @@ export const timeline: TimelineItem[] = [
 		title: "Front-End Developer Intern",
 		place: "Qkare Bilgi Teknolojileri",
 		start: "Sep 2025",
-		end: "Dec 2025",
+		end: "Jan 2026",
 		details: [
-			"Developing and maintaining modern user interfaces using HTML, CSS, and JavaScript.",
-			"Gained hands-on experience with React and Tailwind CSS for building dynamic and responsive UI components.",
-			"Collaborating with senior developers on real front-end tasks including component development, UI optimization, and bug fixing.",
-			"Working with Git and professional project workflows to follow industry development standards.",
-			"Improving problem-solving skills and applying best practices for scalable front-end development.",
+			"Developed responsive user interfaces using React and Tailwind CSS.",
+			"Built modern web pages with HTML5, CSS3, and JavaScript.",
+			"Performed UI optimization, bug fixing, and component development.",
+			"Collaborated with senior developers following professional project workflows.",
+			"Applied Git-based version control and industry development standards.",
 		],
 	},
 	{
@@ -297,14 +299,13 @@ export const timeline: TimelineItem[] = [
 		type: "experience",
 		title: "Software Development Intern",
 		place: "Software Persona – TNC Group",
-		start: "Jan 2026",
-		end: "Mar 2026",
+		start: "Jan 2025",
+		end: "Feb 2026",
 		details: [
-			"Worked on database and SQL-based applications.",
-			"Contributed to web development projects using JavaScript.",
-			"Designed UI/UX using Figma.",
-			"Participated in mobile app development (Android / iOS).",
-			"Gained experience in frontend development and user experience design.",
+			"Worked on SQL-based database applications and web development projects.",
+			"Designed UI/UX interfaces using Figma.",
+			"Participated in mobile app development for Android and iOS platforms.",
+			"Gained comprehensive experience in full-stack development and user experience design.",
 		],
 	},
 ];
@@ -312,12 +313,12 @@ export const timeline: TimelineItem[] = [
 export const galleryItems: GalleryItem[] = [
 	{
 		id: "cert-01",
-		title: "HTML5 Web Development – BTK Academy",
+		title: "HTML5 Web Development – BTK Academy (Jan 2025)",
 	},
 	{
 		id: "cert-02",
 		title:
-			"Artificial Intelligence Specialization Program – Basic Training Certificate",
+			"Artificial Intelligence Specialization Program – Basic Training Certificate (Apr 2026)",
 	},
 	{
 		id: "cert-03",
@@ -327,10 +328,10 @@ export const galleryItems: GalleryItem[] = [
 	{
 		id: "cert-04",
 		title:
-			"Project Writing Training Participation Certificate – Ogrenci Kariyeri",
+			"Project Writing Training Participation Certificate – Ogrenci Kariyeri (Jan 2026)",
 	},
 	{
 		id: "cert-05",
-		title: "Gemini Certified Educator – Google for Education",
+		title: "Gemini Certified Educator – Google for Education (Nov 2025)",
 	},
 ];
